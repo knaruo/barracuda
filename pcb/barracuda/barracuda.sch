@@ -1126,92 +1126,11 @@ Wire Wire Line
 Wire Wire Line
 	7125 1900 7125 2550
 Connection ~ 7125 1900
-$Comp
-L kbd:SW_PUSH SW34
-U 1 1 5FB778EA
-P 7425 3200
-F 0 "SW34" H 7425 3455 50  0000 C CNN
-F 1 "SW_PUSH" H 7425 3364 50  0000 C CNN
-F 2 "" H 7425 3200 50  0000 C CNN
-F 3 "" H 7425 3200 50  0000 C CNN
-	1    7425 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D34
-U 1 1 5FB778F0
-P 7725 3375
-F 0 "D34" V 7771 3295 50  0000 R CNN
-F 1 "D" V 7680 3295 50  0000 R CNN
-F 2 "" H 7725 3375 50  0001 C CNN
-F 3 "~" H 7725 3375 50  0001 C CNN
-	1    7725 3375
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7725 3200 7725 3225
-$Comp
-L kbd:SW_PUSH SW35
-U 1 1 5FB778F7
-P 7425 3850
-F 0 "SW35" H 7425 4105 50  0000 C CNN
-F 1 "SW_PUSH" H 7425 4014 50  0000 C CNN
-F 2 "" H 7425 3850 50  0000 C CNN
-F 3 "" H 7425 3850 50  0000 C CNN
-	1    7425 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D35
-U 1 1 5FB778FD
-P 7725 4025
-F 0 "D35" V 7771 3945 50  0000 R CNN
-F 1 "D" V 7680 3945 50  0000 R CNN
-F 2 "" H 7725 4025 50  0001 C CNN
-F 3 "~" H 7725 4025 50  0001 C CNN
-	1    7725 4025
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7725 3850 7725 3875
-$Comp
-L kbd:SW_PUSH SW36
-U 1 1 5FB77904
-P 7425 4500
-F 0 "SW36" H 7425 4755 50  0000 C CNN
-F 1 "SW_PUSH" H 7425 4664 50  0000 C CNN
-F 2 "" H 7425 4500 50  0000 C CNN
-F 3 "" H 7425 4500 50  0000 C CNN
-	1    7425 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D36
-U 1 1 5FB7790A
-P 7725 4675
-F 0 "D36" V 7771 4595 50  0000 R CNN
-F 1 "D" V 7680 4595 50  0000 R CNN
-F 2 "" H 7725 4675 50  0001 C CNN
-F 3 "~" H 7725 4675 50  0001 C CNN
-	1    7725 4675
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7725 4500 7725 4525
-Wire Wire Line
-	7125 3200 7125 3850
-Wire Wire Line
-	7125 3850 7125 4500
-Connection ~ 7125 3850
 Text GLabel 7125 925  1    50   Input Italic 0
 col5
 Connection ~ 7125 1250
 Wire Wire Line
 	7125 925  7125 1250
-Wire Wire Line
-	7125 2550 7125 3200
-Connection ~ 7125 2550
-Connection ~ 7125 3200
 Wire Wire Line
 	3350 1575 4225 1575
 Connection ~ 3350 1575
@@ -1270,13 +1189,7 @@ Wire Wire Line
 	5975 3525 6850 3525
 Connection ~ 5975 3525
 Wire Wire Line
-	6850 3525 7725 3525
-Connection ~ 6850 3525
-Wire Wire Line
-	7725 4175 6850 4175
-Wire Wire Line
 	6850 4175 5975 4175
-Connection ~ 6850 4175
 Wire Wire Line
 	5975 4175 5100 4175
 Connection ~ 5975 4175
@@ -1299,70 +1212,6 @@ Connection ~ 5100 4825
 Wire Wire Line
 	5975 4825 6850 4825
 Connection ~ 5975 4825
-Wire Wire Line
-	6850 4825 7725 4825
-Connection ~ 6850 4825
-$Comp
-L kbd:SW_PUSH SW37
-U 1 1 5FBED5C6
-P 8300 2550
-F 0 "SW37" H 8300 2805 50  0000 C CNN
-F 1 "SW_PUSH" H 8300 2714 50  0000 C CNN
-F 2 "" H 8300 2550 50  0000 C CNN
-F 3 "" H 8300 2550 50  0000 C CNN
-	1    8300 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D37
-U 1 1 5FBED5CC
-P 8600 2725
-F 0 "D37" V 8646 2645 50  0000 R CNN
-F 1 "D" V 8555 2645 50  0000 R CNN
-F 2 "" H 8600 2725 50  0001 C CNN
-F 3 "~" H 8600 2725 50  0001 C CNN
-	1    8600 2725
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8600 2550 8600 2575
-$Comp
-L kbd:SW_PUSH SW38
-U 1 1 5FBED5F0
-P 8300 4500
-F 0 "SW38" H 8300 4755 50  0000 C CNN
-F 1 "SW_PUSH" H 8300 4664 50  0000 C CNN
-F 2 "" H 8300 4500 50  0000 C CNN
-F 3 "" H 8300 4500 50  0000 C CNN
-	1    8300 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D38
-U 1 1 5FBED5F6
-P 8600 4675
-F 0 "D38" V 8646 4595 50  0000 R CNN
-F 1 "D" V 8555 4595 50  0000 R CNN
-F 2 "" H 8600 4675 50  0001 C CNN
-F 3 "~" H 8600 4675 50  0001 C CNN
-	1    8600 4675
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8600 4500 8600 4525
-Text GLabel 8000 925  1    50   Input Italic 0
-col6
-Connection ~ 8000 2550
-Wire Wire Line
-	8000 925  8000 2550
-Wire Wire Line
-	8000 2550 8000 4500
-Wire Wire Line
-	7725 2875 8600 2875
-Connection ~ 7725 2875
-Wire Wire Line
-	7725 4825 8600 4825
-Connection ~ 7725 4825
 Text GLabel 1300 6975 0    50   Input Italic 0
 row0
 Text GLabel 1300 7075 0    50   Input Italic 0
@@ -1387,8 +1236,6 @@ Text GLabel 2925 7175 2    50   Input Italic 0
 col4
 Text GLabel 2925 7275 2    50   Input Italic 0
 col5
-Text GLabel 2925 7375 2    50   Input Italic 0
-col6
 Wire Wire Line
 	2825 6775 2925 6775
 Wire Wire Line
@@ -1401,8 +1248,6 @@ Wire Wire Line
 	2825 7175 2925 7175
 Wire Wire Line
 	2825 7275 2925 7275
-Wire Wire Line
-	2825 7375 2925 7375
 Wire Wire Line
 	1300 6975 1425 6975
 Wire Wire Line
@@ -1420,4 +1265,5 @@ NoConn ~ 2825 7475
 NoConn ~ 1425 6875
 NoConn ~ 1425 6775
 NoConn ~ 1425 6475
+NoConn ~ 2825 7375
 $EndSCHEMATC
