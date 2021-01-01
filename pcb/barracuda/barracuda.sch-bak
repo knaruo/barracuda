@@ -381,11 +381,11 @@ Wire Wire Line
 	2475 2225 3350 2225
 Wire Wire Line
 	2750 925  2750 1250
-Text GLabel 2475 3525 0    50   Input Italic 0
+Text GLabel 2500 3900 0    50   Input Italic 0
 row3
-Text GLabel 2475 4175 0    50   Input Italic 0
+Text GLabel 2500 4550 0    50   Input Italic 0
 row4
-Text GLabel 2475 4825 0    50   Input Italic 0
+Text GLabel 2500 5200 0    50   Input Italic 0
 row5
 Wire Wire Line
 	3350 1575 4225 1575
@@ -1037,19 +1037,13 @@ Wire Wire Line
 Wire Wire Line
 	4225 1575 5100 1575
 Wire Wire Line
-	3375 3900 4250 3900
-Wire Wire Line
 	6850 3900 7725 3900
 Wire Wire Line
 	4225 2225 5100 2225
 Wire Wire Line
-	3375 4550 4250 4550
-Wire Wire Line
 	6850 4550 7725 4550
 Wire Wire Line
 	7725 5200 6850 5200
-Wire Wire Line
-	4250 5200 3375 5200
 Wire Wire Line
 	4225 2875 5100 2875
 Wire Wire Line
@@ -1271,4 +1265,10 @@ Connection ~ 6250 3575
 Wire Wire Line
 	4525 3250 4525 3575
 Connection ~ 4525 3575
+Wire Wire Line
+	2500 3900 4250 3900
+Wire Wire Line
+	2500 4550 4250 4550
+Wire Wire Line
+	2500 5200 4250 5200
 $EndSCHEMATC

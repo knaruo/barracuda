@@ -1067,17 +1067,17 @@ Wire Wire Line
 Wire Wire Line
 	5125 5200 6000 5200
 Connection ~ 5125 5200
-Text GLabel 1300 6975 0    50   Input Italic 0
+Text GLabel 1325 7275 0    50   Input Italic 0
 row0
-Text GLabel 1300 7075 0    50   Input Italic 0
+Text GLabel 1325 7375 0    50   Input Italic 0
 row1
-Text GLabel 1300 7175 0    50   Input Italic 0
+Text GLabel 1325 7475 0    50   Input Italic 0
 row2
-Text GLabel 1300 7275 0    50   Input Italic 0
+Text GLabel 1325 6975 0    50   Input Italic 0
 row3
-Text GLabel 1300 7375 0    50   Input Italic 0
+Text GLabel 1325 7075 0    50   Input Italic 0
 row4
-Text GLabel 1300 7475 0    50   Input Italic 0
+Text GLabel 1325 7175 0    50   Input Italic 0
 row5
 Text GLabel 2925 6775 2    50   Input Italic 0
 col0
@@ -1103,18 +1103,6 @@ Wire Wire Line
 	2825 7175 2925 7175
 Wire Wire Line
 	2825 7275 2925 7275
-Wire Wire Line
-	1300 6975 1425 6975
-Wire Wire Line
-	1300 7075 1425 7075
-Wire Wire Line
-	1300 7175 1425 7175
-Wire Wire Line
-	1300 7375 1425 7375
-Wire Wire Line
-	1300 7475 1425 7475
-Wire Wire Line
-	1300 7275 1425 7275
 NoConn ~ 2825 6375
 NoConn ~ 2825 7475
 NoConn ~ 1425 6875
@@ -1271,4 +1259,16 @@ Wire Wire Line
 	2500 4550 4250 4550
 Wire Wire Line
 	2500 5200 4250 5200
+Wire Wire Line
+	1325 7275 1425 7275
+Wire Wire Line
+	1325 7375 1425 7375
+Wire Wire Line
+	1325 7475 1425 7475
+Wire Wire Line
+	1325 6975 1425 6975
+Wire Wire Line
+	1325 7075 1425 7075
+Wire Wire Line
+	1325 7175 1425 7175
 $EndSCHEMATC
