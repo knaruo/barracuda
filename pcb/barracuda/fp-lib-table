@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name TVAF06-A020B-R)(type KiCad)(uri ${KIPRJMOD}/custom_footprint/TVAF06-A020B-R.pretty)(options "")(descr ""))
+  (lib (name barracuda)(type KiCad)(uri ${KIPRJMOD}/custom_footprint/barracuda.pretty)(options "")(descr ""))
 )
