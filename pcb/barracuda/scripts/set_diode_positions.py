@@ -6,8 +6,9 @@ import pcbnew
 
 
 # Constants
-X_OFS = float(6.261)
-Y_OFS = float(41.783 - 50)
+X_OFS = float(8.293)
+Y_OFS = float(86.868 - 88.1)
+ROT = -90 # degree
 
 
 def set_diode_position_by_sw(pcb, sw_name):
@@ -15,6 +16,7 @@ def set_diode_position_by_sw(pcb, sw_name):
     sw_x, sw_y = pcbnew.ToMM(sw.GetPosition())
     d_name = "D" + str(sw_name.replace("SW", ""))
     d_obj = pcb.FindModuleByReference(d_name)
+    d_obj.SetOrientation(ROT * 10)
     d_obj.SetPosition(pcbnew.wxPointMM(sw_x + X_OFS, sw_y + Y_OFS))
 
 
@@ -40,7 +42,7 @@ switch_ids = range(1, 34)
 for sw_id in switch_ids:
     name = "SW" + str(sw_id)
     set_diode_position_by_sw(pcb, name)
-avoid_mounting_holes(pcb)
+# avoid_mounting_holes(pcb)
 
 # Save the board
 pcb.Save(file_path)
