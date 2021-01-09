@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 568)
     (zones 0)
     (modules 91)
@@ -5979,6 +5979,9 @@
     )
   )
 
+  (gr_text "barracuda v1.0 by knaruo" (at 286.3215 97.4725) (layer F.Mask)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (dimension 62.23 (width 0.15) (layer Dwgs.User)
     (gr_text "62.230 mm" (at 24.100001 69.215 270) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
