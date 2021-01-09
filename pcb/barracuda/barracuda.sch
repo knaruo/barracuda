@@ -938,11 +938,11 @@ Text GLabel 10950 4450 2    50   Input Italic 0
 row1
 Text GLabel 10950 4550 2    50   Input Italic 0
 row2
-Text GLabel 10950 3950 2    50   Input Italic 0
+Text GLabel 10950 4950 2    50   Input Italic 0
 row3
-Text GLabel 10950 4050 2    50   Input Italic 0
+Text GLabel 10950 5050 2    50   Input Italic 0
 row4
-Text GLabel 10950 4250 2    50   Input Italic 0
+Text GLabel 10950 5150 2    50   Input Italic 0
 row5
 Text GLabel 10950 5250 2    50   Input Italic 0
 col0
@@ -1153,12 +1153,6 @@ Wire Wire Line
 	10150 3050 10250 3050
 Connection ~ 10150 3050
 Wire Wire Line
-	10850 3950 10950 3950
-Wire Wire Line
-	10850 4050 10950 4050
-Wire Wire Line
-	10850 4250 10950 4250
-Wire Wire Line
 	10850 4350 10950 4350
 Wire Wire Line
 	10850 4450 10950 4450
@@ -1168,8 +1162,6 @@ Wire Wire Line
 	9300 3350 9450 3350
 NoConn ~ 10850 4650
 NoConn ~ 10850 4850
-NoConn ~ 10850 4950
-NoConn ~ 10850 5050
 $Comp
 L Connector:USB_B_Micro J1
 U 1 1 5FFA93AE
@@ -1504,5 +1496,13 @@ Wire Wire Line
 	10850 5350 10950 5350
 NoConn ~ 10850 3650
 NoConn ~ 10850 3750
-NoConn ~ 10850 5150
+Wire Wire Line
+	10850 4950 10950 4950
+Wire Wire Line
+	10850 5050 10950 5050
+Wire Wire Line
+	10850 5150 10950 5150
+NoConn ~ 10850 3950
+NoConn ~ 10850 4050
+NoConn ~ 10850 4250
 $EndSCHEMATC
