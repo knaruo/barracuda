@@ -1,0 +1,17 @@
+Name, Parts id, Number
+MCU, ATmega32U2 (TQFP), 1
+Socket (ChocV1), CPG135001S30, 33
+Diode, 1N4148W, 33
+Reset Switch, TVAF06-A020B-R, 1
+Spacer (M2 4mm), ARB-2004E, 10
+Thread (M2 3mm), -, 20
+USB micro connector, -, 1
+Poly fuse, -, 1
+Crystal (16MHz), FA238, 1
+Resistor (22ohm), 2012size, 2
+Resistor (10kohm), 2012size, 2
+Capacitor (22pF), 1608size, 2
+Capacitor (0.1uF), 1608size, 2
+Capacitor (1uF), 1608size, 1
+Capacitor (10uF), 2012size, 1
+
