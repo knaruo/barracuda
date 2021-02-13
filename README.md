@@ -16,6 +16,11 @@ barracuda (Thin Plate Keyboard)
 * Very thin design
   * Only supports SMT diodes (1N4148W)
   * Not using ProMicro but using ATmega32U2 mounted directly on PCB.
+* Dimension
+  * Length: 271.4 mm
+  * Width: 59.7 mm
+  * Height (PCB bottom to key top): About 15 mm
+    * NOTE: with Kailh Choc (V1) switch and Kailh key caps.
 
 
 # BOM list
