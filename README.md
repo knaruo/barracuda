@@ -48,3 +48,6 @@ barracuda (Thin Plate Keyboard)
 # Firmware
 
 QMK support is available in my forked [qmk_firmware](https://github.com/knaruo/qmk_firmware) (barracuda/default)
+
+
+# Build Guide
