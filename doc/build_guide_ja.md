@@ -65,8 +65,8 @@ MCU等のパターンがあるほうが、部品の実装面です。すべて�
 まず、MCUにファームウェアを書き込むための回路をはんだ付けしていきます。いきなり一番難易度が高いところからスタートです・・・。
 
 ### USBコネクタ周辺
-![Solder USB](res/solder_usb1.png)
-![Solder USB](res/solder_usb2_cad.png)
+![Solder USB](res/solder_usb1.PNG)
+![Solder USB](res/solder_usb2_cad.PNG)
 
 マイクロUSBコネクタを基板に載せ、5つあるピンがランドに合うようにしてマスキングテープで仮止めします。この状態でピン5つとケースグランド4点をはんだ付けします。
 特にピンのはんだ付けの際はフラックスを使うと失敗しにくいです。
@@ -78,14 +78,14 @@ USBコネクタのとなりのリセットスイッチもMCUへのファーム�
 
 
 ### MCU周辺
-![Solder MCU](res/solder_mcu1.png)
+![Solder MCU](res/solder_mcu1.PNG)
 
 MCU (ATmega32U2)をはんだ付けします。MCUは向きに注意します。MCUの角に●があります。●が写真の向きになるように設置します。USBコネクタのときと同様フラックスをうまく使ってはんだ付けします。
 
 
 MCUのとなりの水晶振動子と、22pFのコンデンサ2個をはんだづけします。水晶振動子は接点が4つあり、特に向きに注意が必要です。以下に図示するように水晶振動子の文字列を合わせてください。
 
-![Solder Crystal1](res/solder_crystal2_cad.png
+![Solder Crystal1](res/solder_crystal2_cad.PNG
 )
 
 
@@ -93,7 +93,7 @@ MCUのとなりの水晶振動子と、22pFのコンデンサ2個をはんだづ
 
 MCU, 水晶振動子の後は、周辺のコンデンサとチップ抵抗を付けていきます。コンデンサは容量が0.1uF, 1uF, 10uFの3種類あります。コンデンサは見た目でほぼ区別がつかないので、ひとつずつ開封して実装することをお勧めします。
 
-![Solder Capacitors Resistors](res/solder_cap_res1_cad.png)
+![Solder Capacitors Resistors](res/solder_cap_res1_cad.PNG)
 
 
 ### 接続確認
