@@ -149,3 +149,62 @@ PCBにスペーサ用の穴が10個空いています。4mmスペーサを穴に
 
 以上で組み立て工程は終わりです。
 
+
+# ファームウェアの書き込み
+
+> NOTE: QMK/VIAへのプルリク承認待ち. 以下、プルリクマージ後の作業フローを記載しています。
+
+## QMK Toolboxのインストール
+
+このキーボードでは、少なくとも初回のファームウェア書き込みにはQMK Toolboxというツールを使います。
+
+[qmk_toolbox release](https://github.com/qmk/qmk_toolbox/releases)ページから最新バージョンのQMK Toolboxインストーラを入手し、インストールします。
+
+## デフォルトのファームウェアを入手する
+
+[VIA/Download Firmware](https://caniusevia.com/docs/download_firmware) から、```barracuda_via.hex```をダウンロードします。
+
+
+## QMK Toolboxでデフォルトファームウェアを書き込む
+
+まず、組み立てたキーボードをPCとUSB接続します。
+
+QMK Toolboxを立ち上げ、先程ダウンロードした```barracuda_via.hex```をファイル選択します。
+
+また、**MCUはatmega32u2を選択します**。
+
+Auto-Flashのチェックボックスもチェックしておきます。
+
+![qmk_toolbox/default_firmware](res/firmware_qmk_toolbox.PNG)
+
+書き込みの準備ができたら、ボトムプレート側USBコネクタ脇のリセットスイッチを押します。こうすることでMCUにリセットがかかり、それをトリガーにファームウェアの書き込みがスタートします。
+
+書き込みが完了すると、以下のように
+```
+0x*** bytes written into 0x7000 bytes memory (**.**%)
+```
+という書き込み終了メッセージが表示されるはずです。
+
+![qmk_toolbox/default_firmware2](res/firmware_qmk_toolbox2.PNG)
+
+
+## キーマップ編集方法 1: VIA
+
+VIAというツールの最新リリースをこちらからダウンロード・インストールします。
+[VIA Releases](https://github.com/the-via/releases/releases)
+
+VIAを起動して、キーボードを接続すると、このようにキーマップが表示されます。
+
+![VIA Keymap](res/firmware_via_keymap.PNG)
+
+各スイッチに割り当てたいキーコードを下のマップから選択すると、その場でキーボードに反映される便利なツールです。
+
+また、KEY TESTERタブを選ぶとキーボードの動作確認もできます。
+
+
+## キーマップ編集方法 2: QMK Firmware
+
+VIAは非常に便利な上に十分高機能ですが、ファームウェアで実現できる機能の一部は実装できません。
+例えば, tap danceというシングルタップ、ダブルタップ、長押しでそれぞれ送るキーコードを変えるような機能は、VIAからは利用できません。
+
+ファームウェアをフルにカスタマイズしてみたい方は、[QMK Firmware](https://github.com/qmk/qmk_firmware)のgithubレポジトリをフォークして、```keyboards/barracuda```以下のキーマップのコードで色々と試していただければと思います。
