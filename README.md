@@ -11,8 +11,7 @@ barracuda (Thin Plate Keyboard)
 * Ortholinear
   * 3 rows \* 6 columns on left, 5 columns on right, total 33 keys
 * Key switch hot-swap capable
-  * Supports Kailh PCB socket for Choc low profile switches
-  * (Mounting hole for Choc V2 switches are also ready on PCB, but I have not tried myself.)
+  * Supports Kailh PCB socket for Kailh Choc V1 low profile switches
 * Very thin design
   * Only supports SMT diodes (1N4148W)
   * Not using ProMicro but using ATmega32U2 mounted directly on PCB.
@@ -48,3 +47,8 @@ barracuda (Thin Plate Keyboard)
 # Firmware
 
 QMK support is available in my forked [qmk_firmware](https://github.com/knaruo/qmk_firmware) (barracuda/default)
+
+
+# Build Guide
+
+[ビルドガイド](doc/build_guide_ja.md)
