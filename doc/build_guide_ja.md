@@ -201,7 +201,7 @@ barracudaキーボードをPCに接続していれば、以下のように+KEYBO
 ![Remap 3](res/remap_3.PNG)
 
 
-## キーマップ編集方法 2: VIA
+## キーマップ編集方法 2: VIA (プルリクエスト申請中)
 
 VIAというツールの最新リリースをこちらからダウンロード・インストールします。
 [VIA Releases](https://github.com/the-via/releases/releases)
